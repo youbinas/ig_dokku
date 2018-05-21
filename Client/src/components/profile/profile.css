@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico:400,500,600,700');
+
+.profile-header{
+    width: 100%;
+    height: auto;
+}
+
+.profile-header-content{
+    min-width: 500px;
+    width: 40%;
+    min-height: 250px;
+    height: auto;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-details{
+    margin: 10px 0 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-avatar{
+    background-color: #D6DADC;
+    border-radius: 25em;
+    cursor: default;
+    overflow: hidden;
+    position: center;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 0;
+    height: 85px;
+    width: 85px;
+    display: inline-block;
+    margin-left: 55%;
+}
+
+
+.profile-image{
+    background-size: 85px 85px;
+    border-radius: 3px;
+    top: 0;
+    z-index: 2;
+    height: 85px;
+    width: 85px;
+}
+
+.user-fullname{
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50%;
+}
+.title{
+    display: inline-block;
+    font-size: 22px;
+}
+.item{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 9pt;
+    color: #797979;
+    padding: 0 6px 0 2px;
+    position: relative;
+    vertical-align: text-bottom;
+}
+.user-username{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 9pt;
+    color: #797979;
+    padding: 0 6px 0 2px;
+    position: relative;
+    vertical-align: text-bottom;
+    text-align: center;
+}
+
+
+.upt-prof-btn i{
+    margin-right: 5px;
+}
+
+.save-btn[disabled] {
+    pointer-events: none;
+    background-color: #E2E4E6;
+    box-shadow: 0 4px 0 #9E9E9E;
+}
+
+.containerForm-profile{
+    margin-top: 0px;
+}
+
+.profile-form{
+    margin-top: 0px;
+}
+
+.btn-profile{
+    display: inline-block;
+    margin-left: 39px;
+    height: 34px;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.containerForm-profile{
+    margin-top: 20px;
+}
+
+.profile-form{
+    margin-top: 0px;
+}
+
+
+
+
+
+
+/** TEAMS */
+.teams-content{
+    width: calc(100% - 100px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 100%;
+}
+.teams-content h2{
+    color: #4d4d4d;
+    font-size: 19px;
+}
+
+.teams-content h2 i {
+    font-size: 25px;
+    color: #999999;
+    margin-right: 10px;
+}

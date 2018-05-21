@@ -1,0 +1,48 @@
+/*******************
+**  Fonts import  **
+********************/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Pacifico');
+
+/**********************
+**  Global settings  **
+***********************/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #F5F5F5 !important;
+    font-family: 'Raleway', sans-serif !important;
+    background-color: #A0CECB;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    height: 100%;
+    padding: 0px !important;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+
+/*********************
+**  Root Component  **
+**********************/
+
+#root{
+    width: 100%;
+    height: fit-content;
+    min-height: calc(100vh - 0px);
+    background-color: #A0CECB;
+}

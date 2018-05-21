@@ -1,0 +1,19 @@
+.team-contener{
+    width: 300px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    padding: 8px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.title-team{
+    widows: 100%;
+    display: block;
+    color: #4d4d4d;
+}

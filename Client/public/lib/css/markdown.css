@@ -1,0 +1,67 @@
+.content-markdown h1 h2 h3 h4 h5{
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+
+.content-markdown h1{
+    padding-bottom: 2px;
+    font-size: 36px;
+    line-height: 1.2;
+    border-bottom: 1px solid #7b7b7b;
+}
+
+.content-markdown h2{
+    padding-bottom: 2px;
+    font-size: 28px;
+    line-height: 1.225;
+    border-bottom: 1px solid #7b7b7b;
+}
+
+.content-markdown h3{
+    font-size: 24px;
+    line-height: 1.43;
+}
+
+.content-markdown h4{
+    font-size: 20px;
+}
+
+.content-markdown h5{
+    font-size: 16px;
+}
+
+.content-markdown pre code{
+    font-family: 'bitstream vera sans mono', 'andale mono', 'lucida console', monospace;
+    line-height: 20px;
+}
+
+.content-markdown pre{
+    background-color: #E2E4E6;
+    border-radius: 2px;
+    border: 1px solid #D6DADC;
+    margin: 8px 0;
+    padding: 8px 10px;
+    word-wrap: normal;
+}
+
+.content-markdown blockquote{
+    border-left: 1px solid #C4C9CC;
+    color: #666;
+    margin: 8px 0 8px 8px;
+    padding: 0 0 0 8px;
+}
+
+.content-markdown ul>li{
+    list-style: disc;
+    margin: 8px 8px 8px 0px;
+}
+
+.content-markdown ol>li{
+    padding: 0;    
+    list-style: decimal;
+    margin: 8px 8px 8px 0px;
+}

@@ -1,0 +1,80 @@
+/********************
+**  Add Component  **
+*********************/
+/** Container **/
+.content-new{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/** Input **/ 
+.input-add{
+    height: 35px;
+    padding-left: 10px;
+    line-height: 40px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    border: 1px solid #BDBDBD;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    color: #616161;
+}
+
+.input-update{
+    height: 35px;
+    padding-left: 10px;
+    line-height: 40px;
+    width: calc(100% - 15px);
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    border: 1px solid #BDBDBD;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    color: #616161;
+}
+
+.input-hidden{
+    display: none;    
+}
+
+.in-list{
+    margin-left: 5px;
+    width: calc(100% - 10px);
+}
+
+/** Add button **/
+.save-btn{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 6px 10px 6px 10px;
+    font-size: 13px;
+    background: #5AAC44;
+    box-shadow: 0 1px 0 #519839;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-close-btn{
+    position: absolute;
+    top: 48px;
+}
+.close-btn{
+    color: #999;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+
+/** Close button **/
+.delete-span{
+    position: absolute;
+    top:0;
+    right:15px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
